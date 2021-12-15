@@ -6,6 +6,7 @@ logpath = /var/log/zimbra.log
 maxretry = 3
 findtime = 600
 bantime = 3600
+banaction = iptables-allports
 
 [zimbra-webmail]
 enabled = true
@@ -15,6 +16,7 @@ logpath = /opt/zimbra/log/mailbox.log
 maxretry = 3
 findtime = 600
 bantime = 3600
+banaction = iptables-allports
 
 [zimbra-admin]
 enabled = true
@@ -24,6 +26,7 @@ logpath = /opt/zimbra/log/mailbox.log
 maxretry = 3
 findtime = 600
 bantime = 3600
+banaction = iptables-allports
 
 [zimbra-log4j]
 enabled = true
@@ -33,3 +36,4 @@ logpath = /opt/zimbra/log/nginx.access.log
 maxretry = 1
 findtime = 600
 bantime = 259200
+banaction = iptables-allports
